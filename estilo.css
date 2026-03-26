@@ -63,6 +63,14 @@ body{
     width: 100%;
 }
 
+.cabecalho{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .foto-perfil{
     width: 200px;
     height: 200px;
