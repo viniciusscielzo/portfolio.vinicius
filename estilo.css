@@ -66,5 +66,7 @@ body{
 .foto-perfil{
     width: 200px;
     height: 200px;
-    
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
+    border-radius: 50%;
+    border: 4px;
 }
