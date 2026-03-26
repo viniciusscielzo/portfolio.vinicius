@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --preto: #0B0B0B;
+    --branco: #ffffff;
+    --Cinza-médio: #6B7280;
+    --Cinza-claro: #E5E7EB;
+    --Azul-marinho: #0F172A    
+}
+
+body{
+    background-color: var(--Azul-marinho);
+    color: var(--Cinza-claro)
+}
+
+.navegacao{
+    position: fixed;
+    top: 0;
+    background: rgba(15, 23, 42, 0.85);
+    width: 100%;
+    z-index: 100;
+    padding: 0.7rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 3rem   ;
+
+}
+
+.menu-link  {
+    text-decoration: none;
+    color: var(--Cinza-claro);
+    font-weight: 500;
+    position: relative;
+    padding: 0.5rem 0;
+
+
+
+}
